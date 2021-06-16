@@ -1,0 +1,168 @@
+* {
+	margin: 0;
+	padding: 0;
+
+}
+body {
+	background-image: linear-gradient(90deg, #d9ff00 25%, #0400ff 100%);
+}
+
+h1 {
+	position: absolute;
+	left: 10%;
+	top: 12%;
+	color: black;
+	font-family: sans-serif;
+	font-size: 72px;
+}
+
+h2 {
+	position: absolute;
+	left: 10%;
+	top: 20%;
+	color: black;
+    font-size: 30px;
+}
+h3 {
+	position: absolute;
+	left: 10%;
+	top: 25%;
+	color: black;
+    font-size: 30px;
+}
+h4 {
+	position: absolute;
+	left: 10%;
+	top: 30%;
+	color: black;
+    font-size: 30px;
+}
+h5 {
+	position: absolute;
+	left: 10%;
+	top: 35%;
+	color: black;
+    font-size: 30px;
+}
+
+figure {
+	position: relative;
+  }
+   
+  figure:before,
+  figure:after {
+	content: '';
+	height: 3%;
+	width: 3%;
+	top: 0;
+	left: 3%;
+	position: absolute;
+  }
+   
+  img {
+    position: relative;
+    top: 10%;
+    left: 3%;
+    transform: scale(2.5);
+	width: 3%;
+	height: 3%;
+	margin: 0;
+	padding: 0;
+	border: solid black, 2px;
+    border-bottom: solid;
+    border-top: solid;
+    border-left: solid;
+    border-right: solid;
+  }
+
+
+.nav__links {
+    list-style: none;
+}
+.nav__links li {
+    display: inline-block;
+    padding: 0px 20%;
+}
+.nav__links li a {
+    position: absolute;
+    left: 13%;
+    top: 3%;
+    transition: all 0.3 ease 0s;
+    font-size: 30pt;
+    text-decoration: none;
+    border: 10px solid #718500; 
+    border-radius: 100px;
+    background-color: #718500;     
+    color: rgb(255, 255, 255);  
+    transform: scale(1.5);             
+}
+.link3 li {
+    display: inline-block;
+    padding: 0px 20%;
+}
+.link3 li a {
+    position: absolute;
+    left: 30%;
+    top: 3%;
+    transition: all 0.3 ease 0s;
+    font-size: 30pt;
+    text-decoration: none;
+    border: 10px solid rgb(102, 145, 0); 
+    border-radius: 100px;
+    background-color: rgb(102, 145, 0);     
+    color: rgb(255, 255, 255);  
+    transform: scale(1.5);         
+}
+.link2 li {
+    display: inline-block;
+    padding: 0px 20%;
+}
+.link2 li a {
+    position: absolute;
+    left: 50%;
+    top: 3%;
+    transition: all 0.3 ease 0s;
+    font-size: 30pt;
+    text-decoration: none;
+    border: 10px solid rgb(100, 129, 146); 
+    border-radius: 100px;
+    background-color: rgb(100, 129, 146);     
+    color: rgb(255, 255, 255); 
+    transform: scale(1.5);          
+}
+
+
+
+.link4 li {
+    display: inline-block;
+    padding: 0px 20%;
+}
+.link4 li a {
+    position: absolute;
+    left: 70%;
+    top: 3%;
+    font-size: 30pt;
+    text-decoration: none;
+    border: 10px solid rgb(67, 34, 255); 
+    border-radius: 100px;
+    background-color: rgb(67, 34, 255);     
+    color: rgb(255, 255, 255);
+    transform: scale(1.5);    
+}
+
+
+
+
+a button {
+    position: absolute;
+    left: 79%;
+    top: 2%;
+    background-color: rgb(0, 17, 255);
+    font-size: 45px;
+    font-family: sans-serif;
+    color: rgb(251, 255, 0);
+    border-radius: 20px;
+    border: none;
+    width: 20%;
+    height: 6%;
+}
